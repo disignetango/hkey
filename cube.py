@@ -1,6 +1,3 @@
-Voici une version du code qui génère 10 codes à chaque exécution :
-
-```python
 import random
 
 def generate_codes(prefix, num_codes=10):
@@ -13,4 +10,3 @@ def generate_codes(prefix, num_codes=10):
 # Exécution et affichage des 10 codes générés
 for code in generate_codes('CUBE'):
     print(code)
-```
