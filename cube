@@ -1,7 +1,0 @@
-import random
-
-def generate_code(prefix):
-  suffix = ''.join(random.choices('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', k=16))
-  return prefix + '-' + suffix
-
-print(generate_code('CUBE'))
